@@ -12,3 +12,52 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+
+@keyframes header_strelka {
+  from {
+    left: -18px;
+  }
+  to {
+    left: -22px;
+  }
+}
+
+
+@keyframes header_hover {
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes move {
+  from {
+    translate: -100% 0%;
+  }
+
+  to {
+    translate: 0% 0%;
+  }
+}
+
+
+
+@keyframes mashtab {
+  from {
+    scale: 1;
+  }
+
+  to {
+    scale: 1.5;
+  }
+}
+
+@keyframes sparks-anim {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
