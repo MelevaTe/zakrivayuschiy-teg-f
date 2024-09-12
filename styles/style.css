@@ -367,6 +367,7 @@
   fill: currentColor;
   inline-size: 39px;
   block-size: 39px;
+  flex-shrink: 0;
 }
 
 .for_button {
@@ -397,7 +398,6 @@
 
 .dialog-wrapper {
   display: flex;
-  flex-wrap: wrap;
   flex-shrink: 0;
   justify-content: space-between;
   align-items: center;
@@ -410,7 +410,7 @@
 }
 
 .close__button {
-  min-inline-size: 293px;
+  max-inline-size: 293px;
   min-block-size: 38px;
 }
 
@@ -442,6 +442,10 @@
   .for_button {
     inline-size: 28px;
     block-size: 28px;
+  }
+
+  .dialog[open] {
+    padding: 30px 40px; 
   }
 
   .dialog-text {
